@@ -1,0 +1,26 @@
+// Trent Library & Archives color scheme
+// Primary:  #154734 (green), #5B7F95 (blue-grey)
+// Secondary:#C0B561 (gold),  #115E67 (teal)
+// Tertiary: #B15533 (rust),  #A9C47F (sage)
+
+$trent-green: #154734;
+$trent-blue:  #5B7F95;
+$trent-gold:  #C0B561; // confirm this is C0 not CO
+$trent-teal:  #115E67;
+$trent-rust:  #B15533;
+$trent-sage:  #A9C47F;
+
+// JTD uses these tokens heavily:
+$link-color: $trent-blue;
+$btn-primary-color: $trent-green;
+
+// Optional: tweak side nav + headings
+$sidebar-color: mix(white, $trent-green, 92%);
+$body-heading-color: $trent-green;
+
+// Optional: code blocks / borders
+$border-color: mix(black, $trent-blue, 12%);
+$code-background-color: mix(white, $trent-blue, 92%);
+
+// Optional: search highlight
+$search-result-preview-color: $trent-teal;
